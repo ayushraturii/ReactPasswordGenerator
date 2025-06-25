@@ -1,12 +1,13 @@
-# React + Vite
+# ABOUT PROJECT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This is a Basic React project in which we have developed a password generator which include features as mentioned below
+- User can choose length of the password
+- User can choose to include Numbers
+- User can choose to include Special Characters
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Whats Intresting
+## This project leverages three hooks showcasing their properties like
+- Usestate to retain what to include like numbers ,special chars length
+- UseCallback to maintain important variables and functions in cache
+- UseEffect to immediately generate password at reloading,changing values of variable Numbers,SpecialChars,Length
+    
